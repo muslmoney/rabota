@@ -1,0 +1,83 @@
+html, body {
+  scroll-behavior: smooth !important;
+}
+
+  
+  :root {
+    --color-default-black: #000;
+  }
+  
+    * {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: calc(1700px + 32px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  picture,
+  img,
+  svg {
+    
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  a,
+  span,
+  button,
+  label,
+  input,
+  textarea {
+    display: inline-block;
+    font-family: inherit;
+    color: inherit;
+    font-weight: inherit;
+  }
+  
+  a,
+  button,
+  label,
+  textarea,
+  li {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  q::after,
+  q::before {
+    content: '';
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #root > * {
+    flex-shrink: 0;
+  }
+  
+  #root > main {
+    flex-grow: 1;
+  }
+  
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-weight: inherit;
+  }
+  
+  
